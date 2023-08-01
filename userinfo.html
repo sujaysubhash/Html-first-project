@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <nav>
+        <a href="microsoft.html">Microsoft office page</a>
+        &nbsp;
+        <a href="userinfo.html" target="_blank">Application form</a>
+    </nav>
+    <h1>Application Form</h1>
+    <form action="#">
+        <fieldset>
+            <legend>User Information</legend>
+
+        <div>
+            <label for="user name">User Name</label>
+            <input type="text" id="user name">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="age">Age</label>
+            <select>
+                <option value="less than 15">less than 15</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-or more">36-or more</option>
+            </select>
+            <br>
+            <br>
+            <label for="dob">Date of Birth</label>
+            <input type="date"  id="dob">
+            <br>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender">
+            <label for="Male">Male</label>
+            <input type="radio" id="gender" name="gender">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="address">Address</label>
+            <textarea id="address" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <label for="pic">Profile Picture</label>
+            <input type="file" id="pic">
+            <br>
+            <br>
+            <label for="pswd">New Password</label>
+            <input type="password" id="pswd">
+            &nbsp;
+            <label for="pswd2">Re-enter Password</label>
+            <input type="password">
+        </fieldset>
+        <br>
+        <br>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Preferences</legend>
+            
+            <label for="fav">Favourite office softwares</label>
+            &nbsp;
+            <input type="checkbox" id="fav">
+            <label for="word">MS Word</label>
+            <input type="checkbox" id="fav">
+            <label for="excel">MS Excel</label>
+            <input type="checkbox" id="fav">
+            <label for="pwr">PowerPoint</label>
+            <input type="checkbox" id="fav">
+            <label for="access">MS Access</label>
+            <input type="checkbox" id="fav">
+            <label for="vs">Visual Studio Code</label>
+            <input type="checkbox" id="fav">
+            <label for="outlook">Outlook</label>
+            <input type="checkbox" id="fav">
+            <label for="bing">Bing</label>
+            <input type="checkbox" id="fav">
+            <label for="skype">Skype</label>
+        <br>
+        <br>
+            Favourite Windows version
+            <input list="favourite windows" >
+            <datalist id="favourite windows">
+                <option value="win10">Windows 10</option>
+                <option value="win11">Windows 11</option>
+                <option value="win8">Windows 8</option>
+                <option value="win7">Windows 7</option>
+            </datalist>
+            <br>
+            <br>
+            <label for="fav">favourite Operating System</label>
+            <input list="Favourite OS">
+            <datalist id="Favourite OS"> 
+                <option value="Win">Windows OS</option>
+                <option value="Mac ">Mac OS</option>
+                <option value="Chrome OS">Chrome OS</option>
+                <option value="ubuntu">Ubuntu OS</option>
+            </datalist>
+
+        </div>
+    </fieldset>
+    <br>
+        <span>
+            <label for="submit"></label>
+            <input type="submit" id="submit">
+            &nbsp;
+        </span>
+        <span>
+            &nbsp;
+            <label for="reset"></label>
+            <input type="reset" id="reset">
+        </span>
+        
+ </form>
+</body>
+</html>
